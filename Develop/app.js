@@ -43,29 +43,43 @@ const ArrayQuestions= [];
     type: "input",
     name: "Github",
     message: "What is your GitHub Username?",
-    when:"Engenieers"
-    
+    when
+
   },
+  {
+    type: "input",
+    name: "Office",
+    message: "What is your Team Member Office Number?",
+
+  },
+
+  {
+    type: "input",
+    name: "University",
+    message: "What is University your Team Member Graduate?",
+
+  },
+
 
   
  
 ])
-.then((response) => {
-    cconsole.log(response)
+// .then((response) => {
+//     cconsole.log(response)
 
    
-})
+// })
 
-;
-    console.log(readMeText);
-    fs.writeFileSync("team.html", readMeText, (error) => {
-      if (error) throw error;
-      console.log("team.html");
-    });
+// ;
+//     console.log(readMeText);
+//     fs.writeFileSync("team.html", readMeText, (error) => {
+//       if (error) throw error;
+//       console.log("team.html");
+//     });
 
-  .catch((error) => {
-    console.log(error);
-  });
+//   .catch((error) => {
+//     console.log(error);
+//   });
 
 
 
