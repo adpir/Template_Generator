@@ -10,6 +10,65 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+const ArrayQuestions= [];
+
+ function TeamGenerator()
+ inquirer
+ .prompt([
+   
+   {
+     type: "input",
+     name: "name",
+     message: "What is your Team Member name?",
+   },
+   {
+    type: "list",
+    name: "Role",
+    message: "What is your Team Role?",
+    choices: ["Manager", "Engineer","Intern"],
+  },
+
+   {
+    type: "input",
+    name: "id",
+    message: "What is your Team Member id ?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your Team Member email?",
+  },
+
+  {
+    type: "input",
+    name: "Github",
+    message: "What is your GitHub Username?",
+    when:"Engenieers"
+    
+  },
+
+  
+ 
+])
+.then((response) => {
+    cconsole.log(response)
+
+   
+})
+
+;
+    console.log(readMeText);
+    fs.writeFileSync("team.html", readMeText, (error) => {
+      if (error) throw error;
+      console.log("team.html");
+    });
+
+  .catch((error) => {
+    console.log(error);
+  });
+
+
+
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
