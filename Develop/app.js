@@ -9,10 +9,10 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
-const { finished } = require("stream");
+// const { finished } = require("stream");
 
-const ArrayQuestions = [];
-let employees = [];
+// const ArrayQuestions = [];
+let employeesQuestions = [];
 function TeamGenerator() {
   inquirer
     .prompt([
@@ -39,9 +39,7 @@ function TeamGenerator() {
         message: "What is your Team Member email?",
       },
 
-      //
-
-      //
+     
     ])
     .then((response) => {
       console.log(response);
@@ -61,7 +59,7 @@ function TeamGenerator() {
             {
               type: "input",
               name: "Github",
-              message: "What is your GitHub Username?",
+              message: "What is your Team Member GitHub Username?",
             },
           ];
           break;
@@ -77,31 +75,31 @@ function TeamGenerator() {
       inquirer.prompt(SpecialQuestion).then((userInput) => {
         switch (response.Role) {
           case "Manager":
-            var myManager = new Manager(
+            let myManager = new Manager(
               response.name,
               response.id,
               response.email,
               userInput.Office
             );
-            employees.push(myManager);
+            employeesQuestions.push(myManager);
             break;
           case "Engineer":
-            var myEngineer = new Engineer(
+            let myEngineer = new Engineer(
               response.name,
               response.id,
               response.email,
               userInput.Github
             );
-            employees.push(myEngineer);
+            employeesQuestions.push(myEngineer);
             break;
           case "Intern":
-            var myIntern = new Intern(
+            let myIntern = new Intern(
               response.name,
               response.id,
               response.email,
               userInput.University
             );
-            employees.push(myIntern);
+            employeesQuestions.push(myIntern);
         }
         Complete();
       });
@@ -128,7 +126,7 @@ function Complete() {
     });
 }
 function Generatefile() {
-  let readMeText = render(employees);
+  let readMeText = render(employeesQuestions);
   console.log(readMeText);
   fs.writeFileSync("team.html", readMeText, (error) => {
     if (error) throw error;
