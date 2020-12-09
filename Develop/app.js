@@ -11,7 +11,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 const render = require("./lib/htmlRenderer");
 
 const ArrayQuestions= [];
-
+let employees =[];
  function TeamGenerator()
  inquirer
  .prompt([
@@ -64,11 +64,11 @@ const ArrayQuestions= [];
   
  
 ])
-// .then((response) => {
-//     cconsole.log(response)
+ .then((response) => {
+     console.log(response)
 
    
-// })
+ })
 
 // ;
 //     console.log(readMeText);
