@@ -8,7 +8,7 @@ On this project, my challenge was to build a Node CLI that takes in information 
 ### Visuals:
 ![Giphy](Develop/output/generate.gif)<br>
 ![Giphy](Develop/output/giphy_app.gif)<br>
-![Giphy](Develop/output/test.gif)<br>
+![Giphy](Develop/output/Test.gif)<br>
 
 
 ### Badges:
@@ -30,7 +30,7 @@ The installation I used to make sure the development environment is running effi
 
 ### Usage:
 ```node app.js```
-[Test](https://drive.google.com/file/d/1by8STVkO-QmqVjUmhqApu4m6RJNaIIE7/view?usp=sharing);
+[Test](https://drive.google.com/file/d/1by8STVkO-QmqVjUmhqApu4m6RJNaIIE7/view?usp=sharing)
 
 
 
@@ -43,4 +43,7 @@ Please make sure to update tests as appropriate.
 ### :octocat: Profile:
 
 [GitHub](https://github.com/adpir?tab=repositories) All rights reserved.
+
+### License
+[License](https://github.com/adpir/Template_Generator/blob/main/LICENSE) 
 
