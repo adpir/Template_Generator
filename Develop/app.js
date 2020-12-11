@@ -12,7 +12,7 @@ const render = require("./lib/htmlRenderer");
 // const { finished } = require("stream");
 
 // const ArrayQuestions = [];
-let employeesQuestions = [];
+const employeesQuestions = [];
 function TeamGenerator() {
   inquirer
     .prompt([
@@ -121,17 +121,26 @@ function Complete() {
           TeamGenerator();
           break;
         case "No":
-          Generatefile();
+          default:
+            throw "Not recognized"
+          // Generatefile();
       }
     });
 }
-function Generatefile() {
-  let readMeText = render(employeesQuestions);
-  console.log(readMeText);
-  fs.writeFileSync("team.html", readMeText, (error) => {
-    if (error) throw error;
-    console.log("team.html");
-  });
-}
+// function Generatefile() {
+
+
+
+//   // let readMeText = render(employeesQuestions);
+//   // console.log(readMeText);
+fs.writeFileSync(outputPath, render(employeesQuestions), (error) => {
+  if (error) throw error;
+  console.log("File is saved");
+ });
+//  fs.writeFileSync("team.html",readMeText, (error) => {
+//     if (error) throw error;
+//     console.log("team.html");
+//    });
+// }
 
 TeamGenerator();
