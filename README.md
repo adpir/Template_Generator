@@ -19,6 +19,7 @@ The installation I used to make sure the development environment is running effi
 * Terminal
 * Visual Studio Code
 * Git Lab
+* [GitHub](https://github.com/adpir/Template_Generator)
 
 
 ### Usage:
