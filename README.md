@@ -3,14 +3,19 @@
 
 
 ## Description:
-
+On this project, my challenge was to build a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. Since testing is a crucial piece in making code maintainable, I ensure that all unit tests pass.
 
 ### Visuals:
-
+![Giphy](Develop/output/generate.gif)<br>
+![Giphy](Develop/output/giphy_app.gif)<br>
+![Giphy](Develop/output/test.gif)<br>
 
 
 ### Badges:
-
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery,Nodes-violet.svg)
+![Command-line](https://img.shields.io/badge/Command-line-blueviolet.svg)
+![npm](https://img.shields.io/badge/npm-red.svg)
 
 ### Installation:
 
@@ -22,8 +27,11 @@ The installation I used to make sure the development environment is running effi
 * [GitHub](https://github.com/adpir/Template_Generator)
 
 
+
 ### Usage:
-This page could be used as a starting place for making a web page accessible.
+```node app.js```
+[Test](https://drive.google.com/file/d/1by8STVkO-QmqVjUmhqApu4m6RJNaIIE7/view?usp=sharing);
+
 
 
 
