@@ -128,7 +128,7 @@ function Complete() {
 function Generatefile() {
   let readMeText = render(employeesQuestions);
   console.log(readMeText);
-  fs.writeFileSync("team.html", readMeText, (error) => {
+  fs.writeFileSync(outputPath, readMeText, (error) => {
     if (error) throw error;
     console.log("team.html");
   });
