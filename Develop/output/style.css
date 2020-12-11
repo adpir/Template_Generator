@@ -1,0 +1,47 @@
+.jumbotron{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+
+ }
+
+ #video-background { 
+   position: absolute;
+   height: 100%;
+   width: 100%;
+    min-height: 100%;
+   min-width: 100%; 
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+   z-index: 1;
+   object-fit: cover;
+ }
+ body {
+   background-color: white;
+ }
+ .card-body {
+  background-color: #48f6ff;
+  border-width: 10px;
+  text-shadow: 10px;
+  /* margin: 10px;
+  padding:20px; */
+ }
+ .employee-card{
+  margin: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding:20px;
+  box-shadow: 10px 10px 5px rgb(34, 34, 34);
+  
+ }
+
+ .card-title {
+  font-family: 'Lobster', cursive;
+
+ }
+
+ title {
+   font-style: 'Taviraj', serif;
+ }

@@ -9,9 +9,8 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
-// const { finished } = require("stream");
 
-// const ArrayQuestions = [];
+
 let employeesQuestions = [];
 function TeamGenerator() {
   inquirer
@@ -128,7 +127,7 @@ function Complete() {
 function Generatefile() {
   let readMeText = render(employeesQuestions);
   console.log(readMeText);
-  fs.writeFileSync("team.html", readMeText, (error) => {
+  fs.writeFileSync(outputPath, readMeText, (error) => {
     if (error) throw error;
     console.log("team.html");
   });
