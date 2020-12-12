@@ -6,6 +6,7 @@
 On this project, my challenge was to build a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. Since testing is a crucial piece in making code maintainable, I ensure that all unit tests pass.
 
 ### Visuals:
+![Giphy](Develop/output/Team.git)
 ![Giphy](Develop/output/generate.gif)<br>
 ![Giphy](Develop/output/giphy_app.gif)<br>
 ![Giphy](Develop/output/Test.gif)<br>
