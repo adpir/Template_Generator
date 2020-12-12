@@ -5,8 +5,22 @@
 ## Description:
 On this project, my challenge was to build a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. Since testing is a crucial piece in making code maintainable, I ensure that all unit tests pass.
 
+
+### Table of Contents 
+
+* [Usage](#Usage)
+
+* [Visuals](#Visuals)
+
+* [Installation](#Installation)
+
+* [Contributing](#Contributing)
+
+* [License](#License)
+
+
 ### Visuals:
-![Giphy](Develop/output/Team.git)
+![Giphy](Develop/output/Team.gif)
 ![Giphy](Develop/output/generate.gif)<br>
 ![Giphy](Develop/output/giphy_app.gif)<br>
 ![Giphy](Develop/output/Test.gif)<br>
@@ -22,22 +36,11 @@ On this project, my challenge was to build a Node CLI that takes in information 
 
 The installation I used to make sure the development environment is running efficiently.The user need to ```install npm``` the know as **Node Package Manager**) from a user's input using the ```inquire package```. Create a ```.gitignore file``` and ```.DS_Store``` so that your ```node_modules``` directory isn't tracked or uploaded to GitHub. Remember to create a ```.gitignore file``` before installing any ```npm``` dependencies. Make sure that your repo includes a ```package.json```. Create one by running ```npm init``` when you first set up the project. Use the Inquirer npm package to prompt the user for their email, id, and specific information based on their role with the company. I make sure to install this program below:
 
+
 * Terminal
 * Visual Studio Code
 * Git Lab
 * [GitHub](https://github.com/adpir/Template_Generator)
-
-### Table of Contents 
-
-* [Usage](#Usage)
-
-* [Visuals](#Visuals)
-
-* [Installation](#Installation)
-
-* [Contributing](#Contributing)
-
-* [License](#License)
 
 
 ### Usage:
