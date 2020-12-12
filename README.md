@@ -45,5 +45,5 @@ Please make sure to update tests as appropriate.
 [GitHub](https://github.com/adpir?tab=repositories) All rights reserved.
 
 ### License
-[License](https://github.com/adpir/Template_Generator/blob/main/LICENSE) 
+[MIT](https://github.com/adpir/Template_Generator/blob/main/LICENSE) 
 
