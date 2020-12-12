@@ -34,9 +34,9 @@ The installation I used to make sure the development environment is running effi
 
 * [Installation](#Installation)
 
-* [Test](#Test)
+* [Contributing](#Contributing)
 
-* [Contact](#Contact)
+* [License](#License)
 
 
 ### Usage:
