@@ -20,7 +20,7 @@ On this project, my challenge was to build a Node CLI that takes in information 
 
 
 ### Visuals:
-![Giphy](Develop/output/Team.gif)
+![Giphy](Develop/output/My_team.gif)
 ![Giphy](Develop/output/generate.gif)<br>
 ![Giphy](Develop/output/giphy_app.gif)<br>
 ![Giphy](Develop/output/Test.gif)<br>
